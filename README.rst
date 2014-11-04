@@ -33,15 +33,15 @@ Run any code with the -h or --help option to get help on the available options. 
 
     ./moneda_priors.py -h
 
-Quick Guide
------------
+**QUICK DESCRIPTION**
 
-* moneda_priors.py - Shows the posterior for the coin example, computed with upto three pre-defined priors, with increasing sample size N, for a given coin bias.
+* L1_progs - Lesson 1 programs
 
-* moneda_ex.py - Shows the posterior for the coin example for a given number of heads and total tosses. As in moneda_priors.py, different priors can be selected and plotted together.
+  * moneda_priors.py - Shows the posterior for the coin example, computed with upto three pre-defined priors, with increasing sample size N, for a given coin bias.
 
-Examples
------------
+  * moneda_ex.py - Shows the posterior for the coin example for a given number of heads and total tosses. As in moneda_priors.py, different priors can be selected and plotted together.
+
+**EXAMPLES**
 
 For the coin example we can see the effect of choosing different priors, using the -p option::
 
