@@ -57,11 +57,6 @@ Finally, set a fixed seed for the random number generator with -s::
 
     ./moneda_priors.py -p 1 2 3 -hc 0.6  -m -o monedas.png -f -s 98765
 
-
- 
-Program mgc3.py
----------------
-
 Attribution
 -----------
 
