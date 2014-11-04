@@ -3,14 +3,14 @@ Intro to Bayes Short Course
 
 **DESCRIPTION:**
 
-This is a short 3-class introduction to Bayesian Statistics. We
-will illustrate basic concepts of Bayesian Inference by using mostly
-Astrophysical examples.
+This is a short 3-class introduction to Bayesian Statistics thought at the
+University of Barcelona. We will illustrate basic concepts of Bayesian Inference 
+by using mostly Astrophysical examples.
 
 **REQUIREMENTS**
 
 - Python modules required are NUMPY, SCIPY and MATPLOTLIB.
-- For lesson 3 we will show an example with the MMCMC sampler emcee
+- For lesson 3 we will show an example with the MCMC sampler emcee
   from Foreman-Mackey et al. (2013)
 
 **FILES PROVIDED**
