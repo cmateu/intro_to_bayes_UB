@@ -3,8 +3,8 @@ Intro to Bayes Short Course
 
 **DESCRIPTION:**
 
-This is a short 3-class introduction to Bayesian Statistics taught at the
-University of Barcelona. We will illustrate basic concepts of Bayesian Inference 
+This is a short 3-class introduction to Bayesian Statistics. 
+We will illustrate basic concepts of Bayesian Inference 
 by using mostly Astrophysical examples.
 
 **REQUIREMENTS**
