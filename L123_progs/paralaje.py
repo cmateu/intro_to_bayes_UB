@@ -12,13 +12,14 @@ def estrella(N,true_par,err_pi):
 plt.figure(1,figsize=(14,8))
 
 true_par=1/50.  #d=100pc
-Nmucho=200
+Nmucho=300
 i=0
 #for err_pii in [0.005,0.05,0.1]:
 for err_pii in [0.005,0.1]:
+ pi=np.array([])
  for N in [50,100,200,Nmucho]:
  #for N in [200,]:
-  pi=estrella(N,true_par,err_pii)
+  pi=np.append(pi,estrella(N-pi.size,true_par,err_pii))
   err_pi=err_pii*np.ones(N)
   plt.subplot(2,2,i+1)
   plt.hist(pi,histtype='step',normed=True,lw=3.)
