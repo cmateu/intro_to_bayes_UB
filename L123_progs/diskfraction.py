@@ -132,8 +132,8 @@ except IndexError:
  sys.exit('Syntax: Ndisk(BDs) Ntotal(BDs) Ndisk(VLMS) Ntotal(VLMS) Pequal_tol(0-1) show_tol[T/F] outplotname.eps')
 
 f=np.linspace(0.001,1.,1000)
-Nbd_d,Nbd_t=6,16
-Nvl_d,Nvl_t=4,77
+#Nbd_d,Nbd_t=6,16
+#Nvl_d,Nvl_t=4,77
 #Pequal_tolerance=0.1
 
 print '#-----------------------------------------------------------------'
