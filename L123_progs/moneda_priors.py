@@ -60,7 +60,7 @@ else:
 
 fig=plt.figure(1,figsize=(14,8))
 
-H=np.linspace(0.,1.,101)
+H=np.linspace(0.,1.,501)
 i=0
 moneda=np.array([])
 
