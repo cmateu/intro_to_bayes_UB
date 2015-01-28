@@ -3,7 +3,7 @@ Intro to Bayes Short Course
 
 **DESCRIPTION:**
 
-This is a short 3-class introduction to Bayesian Statistics. 
+This is a short 4-class introduction to Bayesian Statistics. 
 We will illustrate basic concepts of Bayesian Inference 
 by using mostly Astrophysical examples.
 
@@ -19,7 +19,7 @@ by using mostly Astrophysical examples.
    * L1_progs/moneda_priors.py
    * L1_progs/moneda_ex.py
 - Lecture notes
-   * L1_intro_to_bayes_UB.pdf 
+   * L1_intro_to_bayes_CU.pdf 
    * L2_intro_to_bayes_UB.pdf 
    * L3_intro_to_bayes_UB.pdf 
 - Extras:   
