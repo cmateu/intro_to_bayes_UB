@@ -15,7 +15,7 @@ def select_prior(Nprior):
 
   if Nprior==1:  prior,col=1.,'royalblue'
   elif Nprior==2:
-     prior=np.exp(-(H-0.5)**2/(2.*(0.1)**2))+0.3
+     prior=np.exp(-(H-0.5)**2/(2.*(0.2)**2))+0.3
      col='forestgreen'
   elif Nprior==3:
      prior=np.exp(-H/0.05) + np.exp((H-1.)/0.05) + 0.1

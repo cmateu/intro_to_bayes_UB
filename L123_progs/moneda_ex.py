@@ -46,6 +46,7 @@ def get_1d_confidence_intervals(xori,zori):
 
   #Standard values for 1-sigma,2-sigma,3-sigma (gaussian) confidence intervals
   sigma_levels=np.array([0.683,0.954,0.997])
+  #sigma_levels=np.array([0.5,0.75,0.25])
 
   tol=0.05
   sigma_Ps=np.array([])

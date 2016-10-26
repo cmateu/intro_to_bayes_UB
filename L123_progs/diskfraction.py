@@ -164,9 +164,10 @@ mask=(np.abs(xx-yy)/xx<Pequal_tolerance)
 if 't' in showtol.lower(): plt.plot(xx[mask].flatten(),yy[mask].flatten(),'w.',mec='w',alpha=0.2)
 print '#-----------------------------------------------------------------'
 print 'Pequal_x = %.4f%s' % (np.sum(Pxy[mask])*100,'%')
-mask=(np.abs(xx-yy)/yy<Pequal_tolerance)
+#mask=(np.abs(xx-yy)/yy<Pequal_tolerance)
 #print 'Pequal_y = %.4f%s' % (np.sum(Pxy[mask])*100,'%')
-print 'Pequal computed with tolerance ', Pequal_tolerance
+print 'Pdiff_x = 100 - Pequal_x= %.4f%s' % (100-np.sum(Pxy[mask])*100,'%')
+print 'computed with tolerance x=', Pequal_tolerance
 
 fig.savefig(outfile)
 plt.show()
