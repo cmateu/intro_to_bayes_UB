@@ -3,17 +3,21 @@ Intro to Bayes Short Course
 
 **DESCRIPTION:**
 
-This is a short 4-class introduction to Bayesian Statistics. 
+This is a short 3-class introduction to Bayesian Statistics. 
 We will illustrate basic concepts of Bayesian Inference 
 by using mostly Astrophysical examples.
 
 **REQUIREMENTS**
 
-- Python modules required are NUMPY, SCIPY and MATPLOTLIB.
-- For lesson 3 we will show an example with the MCMC sampler emcee
-  from Foreman-Mackey et al. (2013)
+- 2017: Sign-up for Google Colaboratory.
 
-**FILES PROVIDED**
+- To execute Python codes offline you will need Numpy, Scipy and Matplotlib
+
+**COLABORATORY NOTEBOOKS**
+
+- L1 notebook available at [this link](https://drive.google.com/file/d/0BwJvfhI6VHVgRUhMSTBvZUhSZDA/view?usp=sharing). Remember to copy it to your own Google Drive so you can edit and execute it.
+
+**OFF-LINE FILES PROVIDED**
 
 - Executable programs
    * L1_progs/moneda_priors.py
@@ -60,14 +64,13 @@ Finally, set a fixed seed for the random number generator with -s::
 Attribution
 -----------
 
-Cecilia Mateu - cmateu at astrosen.unam.mx
+Cecilia Mateu - cmateu at cida.gob.ve
 
-If you have used this code in your research, please let me know and consider acknowledging this package.
 
 License
 -------
 
-Copyright (c) 2014 Cecilia Mateu
+Copyright (c) 2014-2017 Cecilia Mateu
 
 This is open source and free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by the
