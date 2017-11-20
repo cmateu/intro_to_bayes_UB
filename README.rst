@@ -15,7 +15,7 @@ by using mostly Astrophysical examples.
 
 **COLABORATORY NOTEBOOKS**
 
-- L1 notebook available at [this link](https://drive.google.com/file/d/0BwJvfhI6VHVgRUhMSTBvZUhSZDA/view?usp=sharing). Remember to copy it to your own Google Drive so you can edit and execute it.
+- L1 notebook available at `this link <https://drive.google.com/file/d/0BwJvfhI6VHVgRUhMSTBvZUhSZDA/view?usp=sharing>`__. Remember to copy it to your own Google Drive so you can edit and execute it.
 
 **OFF-LINE FILES PROVIDED**
 
