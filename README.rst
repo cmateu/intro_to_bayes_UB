@@ -9,13 +9,13 @@ by using mostly Astrophysical examples.
 
 **REQUIREMENTS**
 
-- 2017: Sign-up for Google Colaboratory.
-
-- To execute Python codes offline you will need Numpy, Scipy and Matplotlib
+- NEW! (2017): Just sign-up for Google Colaboratory.
 
 **COLABORATORY NOTEBOOKS**
 
-- L1 notebook available at `this link <https://drive.google.com/file/d/0BwJvfhI6VHVgRUhMSTBvZUhSZDA/view?usp=sharing>`__. Remember to copy it to your own Google Drive so you can edit and execute it.
+- Lesson 1 notebook available at `this link <https://drive.google.com/file/d/0BwJvfhI6VHVgRUhMSTBvZUhSZDA/view?usp=sharing>`__. 
+
+Remember to copy each notebook to your own Google Drive so you can edit and execute it.
 
 **OFF-LINE FILES PROVIDED**
 
@@ -28,6 +28,8 @@ by using mostly Astrophysical examples.
    * L3_intro_to_bayes_UB.pdf 
 - Extras:   
    * matplotlibrc (for plotting format purposes)
+
+- To execute Python codes offline you will need Numpy, Scipy and Matplotlib
 
 **INSTALLATION**
 
