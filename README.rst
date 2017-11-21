@@ -13,9 +13,9 @@ by using mostly Astrophysical examples.
 
 **COLABORATORY NOTEBOOKS**
 
-- Lesson 1 notebook available at `this link <https://drive.google.com/file/d/0BwJvfhI6VHVgRUhMSTBvZUhSZDA/view?usp=sharing>`__. 
+- Lesson 1 notebook available at `this link <https://drive.google.com/file/d/0BwJvfhI6VHVgRUhMSTBvZUhSZDA/view?usp=sharing>`__ (you can only use Chrome for this, it won't work on Safari or Firefox). Or download the notebook from `here <https://github.com/cmateu/intro_to_bayes_UB/blob/master/L123_progs/IntroBayes_L1_NrrMv.ipynb>`__ and manually upload it to your Colaboratory. 
 
-Remember to copy each notebook to your own Google Drive so you can edit and execute it.
+Remember to copy each notebook to your own Google Drive so you can edit and execute it. NOTE: Google Colaboratory currently only works on Chrome.
 
 **OFF-LINE FILES PROVIDED**
 
