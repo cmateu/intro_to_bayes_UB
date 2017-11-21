@@ -38,7 +38,7 @@ __what__= sys.argv[0]+": This program illustrates the coin example."
 #
 parser = argparse.ArgumentParser(description=__what__)
 
-parser.add_argument("-p","--priorkeys", help="Select Prior Key [1=Uniform,2=Gaussian,3=Weird]. Options: single or space-separated key list. If set to ALL will use all keys in library. Default is 1", nargs='+',default=[1,])
+parser.add_argument("-p","--priorkeys", help="Select Prior Key [1=Uniform,2=Gaussian,3=Weird]. Options: single or space-separated key list. Default is 1", nargs='+',default=[1,])
 parser.add_argument("-s","--seed", help="Set seed for random number generator", nargs=1)
 parser.add_argument("-o","--outplot", help="Output plot filename", nargs=1,default='moneda.png')
 parser.add_argument("-f","--figsave", help="Save figure",action='store_true',default=False)
