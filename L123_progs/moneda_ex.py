@@ -87,7 +87,7 @@ Nprior_l=args.priorkeys
 Ntot=np.int(args.Ntot[0])
 Nh=np.int(args.Nheads[0])
 
-fig=plt.figure(1,figsize=(14,8))
+fig=plt.figure(1,figsize=(12,6))
 
 H=np.linspace(0.,1.,101) #The coin bias
 i=0
@@ -103,6 +103,8 @@ for N in [0,Ntot]:
   ax=fig.add_subplot(1,2,i)
   #Compute and plot posterior for different priors
   for Nprior in Nprior_l:
+
+
     prior,pcol=select_prior(np.int(Nprior))
     posterior=prior*likelihood
     ax.plot(H,posterior/np.max(posterior),'-',c=pcol)
@@ -110,9 +112,13 @@ for N in [0,Ntot]:
     Psum=posterior.cumsum()/posterior.sum()
     Hmedian=H[Psum<=0.5][-1]
     if args.median and N>0: ax.axvline(x=Hmedian,ls='-',lw=2,c=pcol,label='median')
+    Hmax=H[np.argmax(posterior)]
 
     #Confidence intervals
     if N>0:
+     print '-----Prior %s-----' % (Nprior)
+     print "Posterior Mode at=%.2f" % (Hmax)
+
      ci_tuple=get_1d_confidence_intervals(H,posterior)
      lss=['--',';',':']
      fs=[3.,2.,1.]
@@ -122,7 +128,8 @@ for N in [0,Ntot]:
         #ax.axvline(ci_tuple[2][ii],ls=lss[0],lw=fs[ii],c=pcol)
         #ax.axvline(ci_tuple[3][ii],ls=lss[0],lw=fs[ii],c=pcol)
         mask_ci=(H>=ci_tuple[2][ii]) & (H<=ci_tuple[3][ii])
-        ax.fill_between(H[mask_ci],0*posterior_norm[mask_ci],posterior_norm[mask_ci],color=pcol,alpha=0.2)
+        ax.fill_between(H[mask_ci],0*posterior_norm[mask_ci],posterior_norm[mask_ci],color=pcol,alpha=0.3)
+        print "%d-sigma h=[%.2f,%.2f]" % (ii+1,ci_tuple[2][ii],ci_tuple[3][ii])
 
   #-------Format stuff-----------------------------------------------
   if i==1: print 'N=%-5d, Nh=%-d, Hmode=%5.3f, Hmedian=%5.3f' % (N,Nh,Hbest,Hmedian)
